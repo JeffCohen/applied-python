@@ -1,0 +1,7 @@
+__pycache__/
+presentation/
+
+*.md
+*solution*
+
+!README.md
