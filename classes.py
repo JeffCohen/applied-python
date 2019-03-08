@@ -5,11 +5,7 @@
 # - Instance vs Class attributes
 # - Properties: "getters" vs. "setters"
 # - Aside: Instance methods are just syntactic sugar
+# - After this: lab_1.py
 
-
-
-
-
-
-
-# Next: lab_1.py
+class Stock:
+    pass

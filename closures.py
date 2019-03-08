@@ -13,15 +13,17 @@ def after(seconds, func):
     func()
 
 def greeting():
-    print(f'Hello, Luke Skywalker')
+    print(f'Hello, Guido')
 
 after(3, greeting)
 
-# But what about...
+# 1. But what about...
 
 # after(3, greeting("Jeff"))
 
-# Can we generalize it?
 
-# def add(x, y):
-#     print(f'Adding {x} + {y} -> {x + y}')
+# 2. Can we generalize it?
+#    What if we had to wrap this function?
+#
+#    def add(x, y):
+#      print(f'Adding {x} + {y} -> {x + y}')

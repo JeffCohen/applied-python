@@ -14,11 +14,10 @@ you can easily get to from your Terminal.
 
 ### Workshop Prerequisites
 
+* Python 3.x (3.6 or higher preferred)
 * Basic knowledge of Python basics
 * A text editor
 * A shell environment (Terminal, etc.)
-* Python 3.x (3.6 or higher preferred)
-* Optional: the "JSON Formatter" extension for Chrome
 
 ### Google-able Agenda
 
@@ -29,19 +28,20 @@ i.e. "python constructors"
   * Classes
   * Constructors
   * Data attributes vs. method attributes
-  * Instance methods vs. Class methods
   * Properties: "getters" vs. "setters"
-  * Aside: Are instance methods just syntactic sugar?
+  * Instance methods vs. Class methods
+  * _Aside: Instance methods just syntactic sugar_
 
-* Iteration
-  * Using indexes during iteration
-  * Functional Python: `map` and `filter`
+* Iteration (`iteration.py`)
+  * Functional Python: `map(f, list)` and `filter(f, list)`
   * Modern style: List comprehensions
+  * Using indexes during iteration using `.enumerate()`
 
 * Python Specialties
   * Lambdas
-  * The Iteration Protocol
-  * Generators
+  * Thinking in streams
+    * Generators
+    * The Iteration Protocol
   * Closures
   * Decorators
 
