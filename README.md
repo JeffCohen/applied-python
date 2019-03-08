@@ -8,8 +8,6 @@
 select **Download ZIP**.  Unzip the file to a directory that
 you can easily get to from your Terminal.
 
-<img width="400px" src="zip.png">
-
 ---
 
 ### Workshop Prerequisites
